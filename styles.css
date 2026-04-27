@@ -541,3 +541,10 @@ footer {
     font-size: 40px;
   }
 }
+
+
+.confirmacion {
+  display: none;
+  padding: 70px 5%;
+  text-align: center;
+}
