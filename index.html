@@ -3,307 +3,407 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MC Quality</title>
+  <title>MC Quality – Centro Ecuestre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js"></script>
 </head>
 <body>
 
+  <!-- ══ HEADER ════════════════════════════════════════ -->
   <header>
-    <h1>MC QUALITY</h1>
-
+    <a href="#inicio" class="logo">MC QUALITY</a>
     <nav>
-      <a href="#inicio">Inicio</a>
-      <a href="#quienes">Quiénes Somos</a>
-      <a href="#bienestar">Bienestar Animal</a>
+      <a href="#quienes">Quiénes somos</a>
+      <a href="#bienestar">Bienestar animal</a>
       <a href="#servicios">Servicios</a>
-      <a class="btn-menu" href="#reserva">Reservar</a>
-      <span>🌐 ES</span>
+      <a href="#reserva" class="btn-reservar">Reservar clase</a>
+      <span class="nav-lang">🌐 ES</span>
     </nav>
   </header>
 
+  <!-- ══ HERO ══════════════════════════════════════════ -->
   <section class="hero" id="inicio">
     <div class="hero-contenido">
-      <h2>MC QUALITY</h2>
-      <div class="linea"></div>
-      <h3>Centro Ecuestre Especializado en Salto</h3>
-      <p>Formación técnica de alta calidad para jinetes de todos los niveles.</p>
-      <p>Desde iniciación hasta competición profesional.</p>
-      <a href="#reserva" class="boton">Reserva tu Clase</a>
+      <p class="hero-eyebrow">Centro Ecuestre · Bogotá</p>
+      <h1 class="hero-title">MC QUALITY</h1>
+      <div class="hero-linea"></div>
+      <p class="hero-subtitle">Especialistas en Salto de Obstáculos</p>
+      <p class="hero-desc">Formación técnica de alta calidad para jinetes de todos los niveles,<br>desde iniciación hasta competición profesional.</p>
+      <a href="#reserva" class="btn-hero">Reserva tu clase</a>
     </div>
   </section>
 
-  <section class="seccion" id="quienes">
-    <h2>Quiénes Somos</h2>
-    <p class="texto-centro">
-      MC Quality es el resultado de la visión compartida de Merchán y Clavijo:
-      crear un centro ecuestre donde la excelencia técnica se une con el respeto por el caballo.
-    </p>
-
-    <div class="valores">
-      <div class="valor">
-        <div class="icono verde">⚡</div>
-        <h3>Vitalidad</h3>
-        <p>Energía y dinamismo en cada sesión de entrenamiento</p>
-      </div>
-
-      <div class="valor">
-        <div class="icono azul">🛡️</div>
-        <h3>Responsabilidad</h3>
-        <p>Compromiso total con la seguridad de jinetes y caballos</p>
-      </div>
-
-      <div class="valor">
-        <div class="icono rosa">♡</div>
-        <h3>Conexión</h3>
-        <p>Fomentamos el vínculo profundo entre jinete y caballo</p>
-      </div>
-
-      <div class="valor">
-        <div class="icono amarillo">◎</div>
-        <h3>Profesionalismo</h3>
-        <p>Metodología técnica y especializada de nivel internacional</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="enfoque">
-    <div class="texto-enfoque">
-      <h2>Nuestro Enfoque</h2>
-      <p>
-        Especializados en salto de obstáculos, ofrecemos un programa integral
-        que abarca desde niños de 2 años hasta adultos mayores de 50.
-      </p>
-      <p>
-        Nuestros instructores Pablo y Neli aportan años de experiencia competitiva
-        y pedagógica, garantizando un aprendizaje técnico y personalizado.
-      </p>
-    </div>
-
-    <div class="numeros">
-      <div class="caja-numero">
-        <h3>5</h3>
-        <p>Alumnos máximo por hora</p>
-      </div>
-
-      <div class="caja-numero">
-        <h3>2</h3>
-        <p>Instructores certificados</p>
-      </div>
-
-      <div class="caja-numero">
-        <h3>2-50+</h3>
-        <p>Rango de edades</p>
-      </div>
-
-      <div class="caja-numero">
-        <h3>100%</h3>
-        <p>Enfoque en salto</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="seccion bienestar" id="bienestar">
-    <h2>Bienestar Animal</h2>
-    <p class="texto-centro">
-      El respeto y cuidado de nuestros caballos es nuestra prioridad absoluta
-    </p>
-
-    <div class="bienestar-contenido">
-      <img src="caballo-establo.jpg" alt="Caballo en establo">
-
-      <div>
-        <p>
-          En MC Quality, entendemos que un caballo feliz y saludable es fundamental
-          para el éxito de cualquier programa de entrenamiento.
+  <!-- ══ QUIÉNES SOMOS ══════════════════════════════════ -->
+  <section id="quienes">
+    <div class="inner">
+      <div class="top">
+        <p class="section-label">Nuestra historia</p>
+        <h2 class="section-title">Quiénes Somos</h2>
+        <p class="section-desc">
+          MC Quality es el resultado de la visión compartida de Merchán y Clavijo:
+          crear un centro ecuestre donde la excelencia técnica se une con el respeto profundo por el caballo.
         </p>
-
-        <div class="items">
-          <div>
-            <h3>🏠 Instalaciones Premium</h3>
-            <p>Establos amplios, ventilados y con camas renovadas diariamente</p>
-          </div>
-
-          <div>
-            <h3>🩺 Atención Veterinaria</h3>
-            <p>Seguimiento médico regular y atención inmediata cuando se necesita</p>
-          </div>
-
-          <div>
-            <h3>♡ Nutrición Balanceada</h3>
-            <p>Dietas personalizadas según las necesidades de cada caballo</p>
-          </div>
-
-          <div>
-            <h3>📅 Día de Descanso</h3>
-            <p>Los lunes son sagrados: nuestros caballos descansan completamente</p>
-          </div>
+      </div>
+      <div class="valores">
+        <div class="valor">
+          <div class="icono verde">⚡</div>
+          <h3>Vitalidad</h3>
+          <p>Energía y dinamismo en cada sesión de entrenamiento</p>
         </div>
-      </div>
-    </div>
-
-    <div class="descanso">
-      <h3>📅 Lunes: Día de Descanso</h3>
-      <p>
-        Como parte de nuestro compromiso con el bienestar animal, todos los lunes
-        nuestros caballos descansan.
-      </p>
-      <p><i>Nota: No hay disponibilidad de clases los lunes.</i></p>
-    </div>
-  </section>
-
-  <section class="seccion" id="servicios">
-    <h2>Servicios y Precios</h2>
-    <p class="texto-centro">Opciones flexibles para todos los niveles y necesidades</p>
-
-    <div class="planes">
-      <div class="plan">
-        <h3>Clase Sencilla</h3>
-        <p>Una sesión individual de entrenamiento especializado en salto</p>
-        <h4>$90,000</h4>
-        <span>COP</span>
-        <ul>
-          <li>✓ Duración: 60 minutos</li>
-          <li>✓ Instructor certificado</li>
-          <li>✓ Máximo 5 alumnos</li>
-          <li>✓ Equipo incluido</li>
-        </ul>
-        <button>Reservar Ahora</button>
-      </div>
-
-      <div class="plan destacado">
-        <h3>Paquete 4 Clases</h3>
-        <p>Ahorra con nuestro paquete más popular</p>
-        <h4>$350,000</h4>
-        <span>COP</span>
-        <ul>
-          <li>✓ 4 clases de 60 minutos</li>
-          <li>✓ Ahorro de $10,000</li>
-          <li>✓ Válido por 30 días</li>
-          <li>✓ Flexibilidad de horarios</li>
-        </ul>
-        <button>Reservar Ahora</button>
-      </div>
-
-      <div class="plan">
-        <h3>Habilidades Especiales</h3>
-        <p>Programa adaptado para personas con necesidades especiales</p>
-        <h4>$100,000</h4>
-        <span>COP</span>
-        <ul>
-          <li>✓ Duración: 60 minutos</li>
-          <li>✓ Atención personalizada</li>
-          <li>✓ Metodología adaptada</li>
-          <li>✓ Ambiente inclusivo</li>
-        </ul>
-        <button>Reservar Ahora</button>
-      </div>
-    </div>
-
-    <div class="info-extra">
-      <div>
-        <p>Instructores Disponibles</p>
-        <h3>Pablo & Neli</h3>
-      </div>
-
-      <div>
-        <p>Capacidad por Clase</p>
-        <h3>Máximo 5 alumnos</h3>
-      </div>
-
-      <div>
-        <p>Horario</p>
-        <h3>Martes a Domingo</h3>
+        <div class="valor">
+          <div class="icono azul">🛡️</div>
+          <h3>Responsabilidad</h3>
+          <p>Compromiso total con la seguridad de jinetes y caballos</p>
+        </div>
+        <div class="valor">
+          <div class="icono rosa">♡</div>
+          <h3>Conexión</h3>
+          <p>Fomentamos el vínculo profundo entre jinete y caballo</p>
+        </div>
+        <div class="valor">
+          <div class="icono amarillo">◎</div>
+          <h3>Profesionalismo</h3>
+          <p>Metodología técnica de nivel internacional</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="seccion reserva" id="reserva">
-    <h2>Reserva tu Clase</h2>
-    <p class="texto-centro">Proceso de reserva sencillo y sin complicaciones</p>
-
-    <div class="pasos">
-      <div>1<br><span>Nivel</span></div>
-      <div>2<br><span>Instructor</span></div>
-      <div>3<br><span>Paquete</span></div>
-      <div>4<br><span>Pago</span></div>
-    </div>
-
-    <div class="formulario">
-      <h3>Selecciona tu Nivel</h3>
-
-      <div class="opciones">
-        <div class="opcion">
-          <h4>Principiante</h4>
-          <p>Primera vez o poca experiencia</p>
+  <!-- ══ NUESTRO ENFOQUE ════════════════════════════════ -->
+  <section id="enfoque">
+    <div class="enfoque-inner">
+      <div class="enfoque-texto">
+        <p class="section-label">Metodología</p>
+        <h2 class="section-title">Nuestro Enfoque</h2>
+        <p class="section-desc">
+          Especializados en salto de obstáculos, ofrecemos un programa integral que abarca
+          desde niños de 2 años hasta adultos mayores de 50.
+        </p>
+        <p class="section-desc" style="margin-top: 16px;">
+          Nuestros instructores <strong>Pablo</strong> y <strong>Neli</strong> aportan años de experiencia
+          competitiva y pedagógica, garantizando un aprendizaje técnico y personalizado.
+        </p>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <h3>5</h3>
+          <p>Alumnos máximo por hora</p>
         </div>
-
-        <div class="opcion">
-          <h4>Intermedio</h4>
-          <p>Experiencia básica en equitación</p>
+        <div class="stat-card">
+          <h3>2</h3>
+          <p>Instructores certificados</p>
         </div>
-
-        <div class="opcion">
-          <h4>Avanzado</h4>
-          <p>Experiencia en salto y competición</p>
+        <div class="stat-card">
+          <h3>2–50+</h3>
+          <p>Rango de edades</p>
         </div>
-
-        <div class="opcion seleccionado">
-          <h4>Habilidades Especiales</h4>
-          <p>Programa adaptado</p>
+        <div class="stat-card">
+          <h3>100%</h3>
+          <p>Enfoque en salto</p>
         </div>
       </div>
-
-      <h3>Información de Pago</h3>
-
-      <div class="resumen">
-        <h4>Resumen de tu Reserva</h4>
-        <p><b>Nivel:</b> Principiante</p>
-        <p><b>Instructor:</b> Pablo</p>
-        <p><b>Paquete:</b> Clase Sencilla</p>
-        <h3>Total: $90,000 COP</h3>
-      </div>
-
-      <div class="alerta">
-        <b>Política de Cancelación:</b> Las cancelaciones deben realizarse con mínimo
-        4 horas de anticipación.
-      </div>
-
-      <label>Nombre Completo</label>
-      <input type="text" placeholder="Tu nombre">
-
-      <label>Email</label>
-      <input type="email" placeholder="tu@email.com">
-
-      <label>Teléfono</label>
-      <input type="text" placeholder="+57 300 000 0000">
-
-      <button class="boton-pago">Proceder al Pago</button>
     </div>
   </section>
 
-  <section class="confirmacion">
-    <div class="check">✓</div>
+  <!-- ══ BIENESTAR ANIMAL ══════════════════════════════ -->
+  <section id="bienestar">
+    <div class="bienestar-inner">
+      <div class="bienestar-top">
+        <p class="section-label">Nuestros caballos</p>
+        <h2 class="section-title">Bienestar Animal</h2>
+        <p class="section-desc">
+          El respeto y cuidado de nuestros caballos es nuestra prioridad absoluta.
+          Un caballo feliz y saludable es fundamental para el éxito de cualquier programa.
+        </p>
+      </div>
+      <div class="bienestar-grid">
+        <div class="bienestar-img-placeholder" aria-hidden="true">🐎</div>
+        <div>
+          <div class="bienestar-items">
+            <div class="bienestar-item">
+              <h4>🏠 Instalaciones Premium</h4>
+              <p>Establos amplios, ventilados y con camas renovadas diariamente</p>
+            </div>
+            <div class="bienestar-item">
+              <h4>🩺 Atención Veterinaria</h4>
+              <p>Seguimiento médico regular y atención inmediata cuando se necesita</p>
+            </div>
+            <div class="bienestar-item">
+              <h4>♡ Nutrición Balanceada</h4>
+              <p>Dietas personalizadas según las necesidades de cada caballo</p>
+            </div>
+            <div class="bienestar-item">
+              <h4>📅 Día de Descanso</h4>
+              <p>Los lunes son sagrados: nuestros caballos descansan completamente</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="descanso-banner">
+        <span class="icon">📅</span>
+        <div>
+          <h4>Lunes: Día de Descanso</h4>
+          <p>Como parte de nuestro compromiso con el bienestar animal, todos los lunes nuestros caballos descansan.</p>
+          <em>Nota: No hay disponibilidad de clases los lunes.</em>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ SERVICIOS ════════════════════════════════════════ -->
+  <section id="servicios">
+    <div class="servicios-inner">
+      <div class="servicios-top">
+        <p class="section-label">Precios y planes</p>
+        <h2 class="section-title">Servicios</h2>
+        <p class="section-desc">Opciones flexibles para todos los niveles y necesidades</p>
+      </div>
+
+      <div class="planes">
+        <div class="plan" data-paquete="Clase Sencilla" data-precio="$90,000">
+          <h3>Clase Sencilla</h3>
+          <p class="plan-desc">Una sesión individual de entrenamiento especializado en salto</p>
+          <div class="plan-precio">$90.000 <span>COP</span></div>
+          <hr>
+          <ul>
+            <li>Duración: 60 minutos</li>
+            <li>Instructor certificado</li>
+            <li>Máximo 5 alumnos</li>
+            <li>Equipo incluido</li>
+          </ul>
+          <button class="btn-plan">Seleccionar plan</button>
+        </div>
+
+        <div class="plan destacado" data-paquete="Paquete 4 Clases" data-precio="$350,000">
+          <span class="badge-popular">Más popular</span>
+          <h3>Paquete 4 Clases</h3>
+          <p class="plan-desc">Ahorra con nuestro paquete más popular</p>
+          <div class="plan-precio">$350.000 <span>COP</span></div>
+          <hr>
+          <ul>
+            <li>4 clases de 60 minutos</li>
+            <li>Ahorro de $10.000</li>
+            <li>Válido por 30 días</li>
+            <li>Flexibilidad de horarios</li>
+          </ul>
+          <button class="btn-plan">Seleccionar plan</button>
+        </div>
+
+        <div class="plan" data-paquete="Habilidades Especiales" data-precio="$100,000">
+          <h3>Habilidades Especiales</h3>
+          <p class="plan-desc">Programa adaptado para personas con necesidades especiales</p>
+          <div class="plan-precio">$100.000 <span>COP</span></div>
+          <hr>
+          <ul>
+            <li>Duración: 60 minutos</li>
+            <li>Atención personalizada</li>
+            <li>Metodología adaptada</li>
+            <li>Ambiente inclusivo</li>
+          </ul>
+          <button class="btn-plan">Seleccionar plan</button>
+        </div>
+      </div>
+
+      <div class="info-extra">
+        <div class="info-extra-item">
+          <p>Instructores disponibles</p>
+          <h4>Pablo & Neli</h4>
+        </div>
+        <div class="info-extra-item">
+          <p>Capacidad por clase</p>
+          <h4>Máximo 5 alumnos</h4>
+        </div>
+        <div class="info-extra-item">
+          <p>Horario disponible</p>
+          <h4>Martes a Domingo</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ RESERVA ══════════════════════════════════════════ -->
+  <section id="reserva">
+    <div class="reserva-inner">
+      <div class="reserva-top">
+        <p class="section-label">Paso a paso</p>
+        <h2 class="section-title">Reserva tu Clase</h2>
+        <p class="section-desc">Completa los pasos para confirmar tu reserva fácilmente</p>
+      </div>
+
+      <!-- Progress bar -->
+      <div class="pasos" id="progress-pasos">
+        <div class="paso activo" id="paso-1">
+          <div class="paso-num">1</div>
+          <span class="paso-label">Nivel</span>
+        </div>
+        <div class="paso-linea" id="linea-1"></div>
+        <div class="paso" id="paso-2">
+          <div class="paso-num">2</div>
+          <span class="paso-label">Instructor</span>
+        </div>
+        <div class="paso-linea" id="linea-2"></div>
+        <div class="paso" id="paso-3">
+          <div class="paso-num">3</div>
+          <span class="paso-label">Paquete</span>
+        </div>
+        <div class="paso-linea" id="linea-3"></div>
+        <div class="paso" id="paso-4">
+          <div class="paso-num">4</div>
+          <span class="paso-label">Tus datos</span>
+        </div>
+        <div class="paso-linea" id="linea-4"></div>
+        <div class="paso" id="paso-5">
+          <div class="paso-num">5</div>
+          <span class="paso-label">Confirmar</span>
+        </div>
+      </div>
+
+      <!-- Panel 1: Nivel -->
+      <div class="panel activo" id="panel-1">
+        <h3>Selecciona tu nivel</h3>
+        <div class="opciones-grid">
+          <div class="opcion" data-valor="Principiante">
+            <h4>Principiante</h4>
+            <p>Primera vez o poca experiencia</p>
+          </div>
+          <div class="opcion" data-valor="Intermedio">
+            <h4>Intermedio</h4>
+            <p>Experiencia básica en equitación</p>
+          </div>
+          <div class="opcion" data-valor="Avanzado">
+            <h4>Avanzado</h4>
+            <p>Experiencia en salto y competición</p>
+          </div>
+          <div class="opcion" data-valor="Habilidades Especiales">
+            <h4>Habilidades Especiales</h4>
+            <p>Programa adaptado e inclusivo</p>
+          </div>
+        </div>
+        <div id="error-nivel" style="color:#dc3545;font-size:13px;margin-top:-20px;margin-bottom:20px;display:none;">Por favor selecciona tu nivel para continuar.</div>
+        <div class="panel-nav">
+          <div></div>
+          <button class="btn-siguiente" onclick="avanzar(1)">Siguiente →</button>
+        </div>
+      </div>
+
+      <!-- Panel 2: Instructor -->
+      <div class="panel" id="panel-2">
+        <h3>Elige tu instructor</h3>
+        <div class="instructores-grid">
+          <div class="instructor-card" data-valor="Pablo">
+            <div class="instructor-avatar">P</div>
+            <div>
+              <h4>Pablo</h4>
+              <p>Especialista en salto técnico y competición</p>
+            </div>
+          </div>
+          <div class="instructor-card" data-valor="Neli">
+            <div class="instructor-avatar" style="background: #15998e;">N</div>
+            <div>
+              <h4>Neli</h4>
+              <p>Experta en iniciación y metodología pedagógica</p>
+            </div>
+          </div>
+        </div>
+        <div id="error-instructor" style="color:#dc3545;font-size:13px;margin-top:-20px;margin-bottom:20px;display:none;">Por favor selecciona un instructor para continuar.</div>
+        <div class="panel-nav">
+          <button class="btn-anterior" onclick="retroceder(2)">← Anterior</button>
+          <button class="btn-siguiente" onclick="avanzar(2)">Siguiente →</button>
+        </div>
+      </div>
+
+      <!-- Panel 3: Paquete -->
+      <div class="panel" id="panel-3">
+        <h3>Selecciona tu paquete</h3>
+        <div class="opciones-grid">
+          <div class="opcion" data-valor="Clase Sencilla" data-precio="$90,000">
+            <h4>Clase Sencilla</h4>
+            <p>1 sesión de 60 min · $90.000 COP</p>
+          </div>
+          <div class="opcion" data-valor="Paquete 4 Clases" data-precio="$350,000">
+            <h4>Paquete 4 Clases</h4>
+            <p>4 sesiones de 60 min · $350.000 COP</p>
+          </div>
+          <div class="opcion" data-valor="Habilidades Especiales" data-precio="$100,000">
+            <h4>Habilidades Especiales</h4>
+            <p>1 sesión adaptada · $100.000 COP</p>
+          </div>
+        </div>
+        <div id="error-paquete" style="color:#dc3545;font-size:13px;margin-top:-20px;margin-bottom:20px;display:none;">Por favor selecciona un paquete para continuar.</div>
+        <div class="panel-nav">
+          <button class="btn-anterior" onclick="retroceder(3)">← Anterior</button>
+          <button class="btn-siguiente" onclick="avanzar(3)">Siguiente →</button>
+        </div>
+      </div>
+
+      <!-- Panel 4: Datos personales -->
+      <div class="panel" id="panel-4">
+        <h3>Tus datos</h3>
+        <div class="form-group">
+          <label for="nombre">Nombre completo</label>
+          <input type="text" id="nombre" placeholder="Tu nombre completo">
+          <div class="error-msg" id="err-nombre">Por favor ingresa tu nombre.</div>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" placeholder="tu@email.com">
+          <div class="error-msg" id="err-email">Por favor ingresa un correo válido.</div>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" placeholder="+57 300 000 0000">
+          <div class="error-msg" id="err-telefono">Por favor ingresa tu teléfono.</div>
+        </div>
+        <div class="alerta">
+          <strong>Política de cancelación:</strong> Las cancelaciones deben realizarse con mínimo 4 horas de anticipación.
+        </div>
+        <div class="panel-nav">
+          <button class="btn-anterior" onclick="retroceder(4)">← Anterior</button>
+          <button class="btn-siguiente" onclick="avanzar(4)">Siguiente →</button>
+        </div>
+      </div>
+
+      <!-- Panel 5: Confirmar -->
+      <div class="panel" id="panel-5">
+        <h3>Confirma tu reserva</h3>
+        <div class="resumen-box" id="resumen-final">
+          <h4>Resumen</h4>
+          <div class="resumen-row"><span>Nombre</span><span id="res-nombre">—</span></div>
+          <div class="resumen-row"><span>Email</span><span id="res-email">—</span></div>
+          <div class="resumen-row"><span>Teléfono</span><span id="res-tel">—</span></div>
+          <div class="resumen-row"><span>Nivel</span><span id="res-nivel">—</span></div>
+          <div class="resumen-row"><span>Instructor</span><span id="res-instructor">—</span></div>
+          <div class="resumen-row"><span>Paquete</span><span id="res-paquete">—</span></div>
+          <div class="resumen-row">
+            <span><strong>Total a pagar</strong></span>
+            <span id="res-total" class="resumen-total">—</span>
+          </div>
+        </div>
+        <div class="alerta">
+          <strong>Política de cancelación:</strong> Las cancelaciones deben realizarse con mínimo 4 horas de anticipación.
+        </div>
+        <div class="panel-nav">
+          <button class="btn-anterior" onclick="retroceder(5)">← Anterior</button>
+          <button class="btn-siguiente" onclick="confirmarReserva()">Confirmar reserva ✓</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ CONFIRMACIÓN ══════════════════════════════════════ -->
+  <section id="confirmacion">
+    <div class="check-circle">✓</div>
     <h2>¡Reserva Confirmada!</h2>
-    <p>
-      Recibirás un correo electrónico con los detalles de tu reserva y las instrucciones
-      para tu primera clase.
-    </p>
-
-    <div class="detalle">
-      <h3>Detalles de la Reserva</h3>
-      <p><b>Nivel:</b> Principiante</p>
-      <p><b>Instructor:</b> Pablo</p>
-      <p><b>Paquete:</b> Clase Sencilla</p>
-      <p><b>Número de confirmación:</b> #MC9488</p>
-    </div>
-
-    <button>Hacer Otra Reserva</button>
+    <p>Recibirás un correo electrónico con los detalles de tu reserva y las instrucciones para tu primera clase.</p>
+    <div class="detalle-reserva" id="detalle-confirmacion"></div>
+    <button class="btn-nueva-reserva" onclick="location.reload()">Hacer otra reserva</button>
   </section>
 
+  <!-- ══ FOOTER ════════════════════════════════════════════ -->
   <footer>
-    <p>MC QUALITY - Centro Ecuestre Especializado</p>
+    <strong>MC QUALITY</strong> · Centro Ecuestre Especializado · Bogotá, Colombia
   </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
