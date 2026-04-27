@@ -1,0 +1,543 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #2f3542;
+  background-color: #ffffff;
+}
+
+header {
+  width: 100%;
+  height: 85px;
+  padding: 20px 5%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  color: #14796f;
+  letter-spacing: 2px;
+  font-size: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2f3542;
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+nav span {
+  margin-left: 20px;
+}
+
+.btn-menu {
+  background-color: #15998e;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.hero {
+  height: 510px;
+  background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("caballo-salto.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 85px;
+  letter-spacing: 8px;
+  font-weight: normal;
+}
+
+.linea {
+  width: 130px;
+  height: 4px;
+  background-color: #16a89d;
+  margin: 20px auto;
+}
+
+.hero h3 {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.boton {
+  display: inline-block;
+  margin-top: 35px;
+  padding: 20px 40px;
+  background-color: #15998e;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.seccion {
+  padding: 70px 5%;
+  text-align: center;
+}
+
+.seccion h2 {
+  font-size: 60px;
+  color: #14796f;
+  margin-bottom: 40px;
+  letter-spacing: 3px;
+}
+
+.texto-centro {
+  max-width: 700px;
+  margin: 0 auto 70px auto;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.valores {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.valor {
+  width: 25%;
+}
+
+.icono {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: auto;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.verde {
+  background-color: #d5fff6;
+  color: #14796f;
+}
+
+.azul {
+  background-color: #dce9ff;
+  color: #2255cc;
+}
+
+.rosa {
+  background-color: #ffe3e9;
+  color: #b00045;
+}
+
+.amarillo {
+  background-color: #fff4bf;
+  color: #b85f00;
+}
+
+.valor h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #14796f;
+}
+
+.valor p {
+  line-height: 1.5;
+  color: #555;
+}
+
+.enfoque {
+  margin: 40px 5%;
+  padding: 50px;
+  background: linear-gradient(to right, #effffc, #eef6ff);
+  display: flex;
+  gap: 50px;
+  border-radius: 10px;
+}
+
+.texto-enfoque {
+  width: 50%;
+}
+
+.texto-enfoque h2 {
+  color: #14796f;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.texto-enfoque p {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.numeros {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.caja-numero {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.caja-numero h3 {
+  color: #14796f;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.caja-numero p {
+  color: #555;
+}
+
+.bienestar {
+  background-color: #f3fffc;
+}
+
+.bienestar-contenido {
+  display: flex;
+  gap: 50px;
+  text-align: left;
+  align-items: center;
+}
+
+.bienestar-contenido img {
+  width: 50%;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.bienestar-contenido p {
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-top: 35px;
+}
+
+.items h3 {
+  color: #14796f;
+  margin-bottom: 10px;
+}
+
+.descanso {
+  margin-top: 60px;
+  background-color: white;
+  padding: 35px;
+  border-left: 5px solid #15998e;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.descanso h3 {
+  color: #14796f;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.planes {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.plan {
+  width: 32%;
+  padding: 35px 25px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  text-align: center;
+  background-color: white;
+}
+
+.destacado {
+  border: 3px solid #15998e;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.plan h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.plan h4 {
+  color: #14796f;
+  font-size: 48px;
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+.plan ul {
+  list-style: none;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.plan li {
+  margin-bottom: 18px;
+  color: #555;
+}
+
+.plan button,
+.confirmacion button {
+  width: 100%;
+  padding: 18px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #15998e;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.info-extra {
+  margin-top: 50px;
+  background: linear-gradient(to right, #eef6ff, #effffc);
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.info-extra h3 {
+  color: #14796f;
+  margin-top: 10px;
+}
+
+.reserva {
+  background: linear-gradient(to bottom, #f5fffd, #ffffff);
+}
+
+.pasos {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.pasos div {
+  background-color: #e5e7eb;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding-top: 12px;
+  color: #333;
+}
+
+.pasos span {
+  display: block;
+  margin-top: 18px;
+  font-size: 14px;
+}
+
+.formulario {
+  max-width: 950px;
+  margin: auto;
+  background-color: white;
+  padding: 45px;
+  text-align: left;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+}
+
+.formulario h3 {
+  color: #14796f;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.opciones {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 45px;
+}
+
+.opcion {
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.seleccionado {
+  border: 2px solid #15998e;
+  background-color: #f3fffc;
+}
+
+.opcion h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.resumen {
+  background-color: #eafffb;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+.resumen h4 {
+  color: #14796f;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.resumen p {
+  margin-bottom: 12px;
+}
+
+.alerta {
+  background-color: #fff9df;
+  border-left: 4px solid #f0a500;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 18px;
+  margin-bottom: 22px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.boton-pago {
+  width: 100%;
+  padding: 20px;
+  background-color: #15998e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.confirmacion {
+  padding: 70px 5%;
+  text-align: center;
+}
+
+.check {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #d5fff6;
+  color: #14796f;
+  font-size: 55px;
+}
+
+.confirmacion h2 {
+  color: #14796f;
+  font-size: 35px;
+  margin: 25px;
+}
+
+.detalle {
+  background-color: #f8f9fa;
+  max-width: 450px;
+  margin: 30px auto;
+  padding: 30px;
+  text-align: left;
+}
+
+.detalle p {
+  margin-top: 12px;
+}
+
+.confirmacion button {
+  max-width: 250px;
+}
+
+footer {
+  background-color: #14796f;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+/* Responsive sencillo */
+@media (max-width: 900px) {
+  header {
+    height: auto;
+    flex-direction: column;
+  }
+
+  nav {
+    margin-top: 15px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px;
+  }
+
+  .hero h2 {
+    font-size: 50px;
+  }
+
+  .valores,
+  .planes,
+  .bienestar-contenido,
+  .enfoque,
+  .info-extra {
+    flex-direction: column;
+  }
+
+  .valor,
+  .plan,
+  .texto-enfoque,
+  .numeros,
+  .bienestar-contenido img {
+    width: 100%;
+  }
+
+  .opciones,
+  .items,
+  .numeros {
+    grid-template-columns: 1fr;
+  }
+
+  .seccion h2 {
+    font-size: 40px;
+  }
+}
